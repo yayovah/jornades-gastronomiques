@@ -1,13 +1,3 @@
 footer{
-  padding-top: 64px;
-  font-size: $font-size-petita;
-  line-height: $line-height-apretat;
-  text-align: center;
-  background-color: black;
-  color: $valls-clar;
-
-    @media (width < $mqMinWidth) {
-      padding-bottom: 96px;
-    }
-
+  
 }

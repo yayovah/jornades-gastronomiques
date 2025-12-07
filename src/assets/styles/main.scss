@@ -7,7 +7,7 @@
  * Import dependencies
  */
 @import '1.settings/colors';
-@import '1.settings/fonts';
+@import '1.settings/typography';
 @import '1.settings/mides';
 
 @import '2.tools/dependencies';
@@ -21,29 +21,15 @@
 
 @import '3.generic/reset';
 
-@import '4.elements/a';
-@import '4.elements/aside';
 @import '4.elements/body';
 @import '4.elements/footer';
-@import '4.elements/headings';
 @import '4.elements/header';
-@import '4.elements/lists';
-@import '4.elements/main';
-@import '4.elements/nav';
-@import '4.elements/section';
 
 
-@import '5.objects/mapa';
-@import '5.objects/baseline';
-@import '5.objects/menu-icones';
-@import '5.objects/targeta';
+@import '5.objects/cartell';
 
-@import '6.components/boto-icones';
-@import '6.components/contingut';
+@import '6.components/logo';
 
-@import '7.utilities/contrast';
-@import '7.utilities/amplades';
-@import '7.utilities/espais';
 @import '7.utilities/extres';
  
 
