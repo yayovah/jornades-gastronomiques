@@ -1,0 +1,19 @@
+.u-padd-small{
+    padding: 12px;
+}
+.u-padd-med{
+    padding: 24px;
+}
+.u-padd-large{
+    padding: 48px;
+}
+.u-padd-extra{
+    padding: 128px !important;
+    @media (width < $mqMinWidth) {
+        padding: 32px !important;
+    }
+}
+
+.u-espai-sota-gran{
+    padding-bottom: 128px;
+}

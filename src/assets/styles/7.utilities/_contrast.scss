@@ -1,0 +1,19 @@
+.u-white-text{
+    color:$valls-blanc;
+}
+
+.u-fons-valls{
+    background-color: $valls-principal;
+}
+
+.u-contrast{
+    @include contrastat();
+}
+
+.u-contrast-fosc{
+    @include contrastat(#000, $text-blanc);
+
+    h1,h2,h3,h4,h5,h6{
+        @include contrastat(#000, $text-blanc);
+    }
+}

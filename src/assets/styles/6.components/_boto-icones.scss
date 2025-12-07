@@ -1,0 +1,39 @@
+.c-boto-icones{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: $font-size-gran;
+    font-weight: $font-weight-pesat;
+    border: 1px solid $valls-principal;
+    border-radius: 24px;
+    padding: 12px;
+    background-color: $fons-clar;
+    color: $valls-principal;
+
+    i{
+        font-size: $font-size-gegant;
+    }
+
+    h4{
+        margin: 0;
+    }
+
+    &:hover{
+        background-color: $valls-principal;
+        color: $fons-clar;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+        i{
+            font-size: $font-size-extra;
+            transition: all 0.1s ease-in-out;
+        }
+    }
+    
+}
