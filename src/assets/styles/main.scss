@@ -11,7 +11,6 @@
 
 @import '1.settings/colors';
 @import '1.settings/typography';
-@import '1.settings/mides';
 
 @import '2.tools/dependencies';
 @import '2.tools/mixins';
@@ -46,47 +45,3 @@
 /**
  * Do NOT include anything else in this file!
  */
-
-
- @layer settings {
-@import '1.settings/colors';
-@import '1.settings/typography';
-@import '1.settings/mides';
-
-}
- @layer tools {
-@import '2.tools/dependencies';
-@import '2.tools/mixins';
-
-}
-
-/* Generic (reset + normalitzacions) */
-@layer generic {
-  @import "3.generic/reset";
-}
-
-/* Elements */
-@layer elements {
-  @import "4.elements/body";
-  @import "4.elements/footer";
-}
-
-/* Objects */
-@layer objects {
-  @import "5.objects/cartell";
-  @import "5.objects/taula_ponents";
-  @import "5.objects/article";
-  @import "5.objects/formulari";
-}
-
-/* Components */
-@layer components {
-  @import "6.components/logo";
-  @import "6.components/card";
-  @import "6.components/cartell-components";
-}
-
-/* Utilities */
-@layer utilities {
-  @import "7.utilities/extres";
-}
