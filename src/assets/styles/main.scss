@@ -6,6 +6,9 @@
  /**
  * Import dependencies
  */
+ 
+ @layer setting, tools, generic, elements, objects, components, utilities;
+ 
 @import '1.settings/colors';
 @import '1.settings/typography';
 @import '1.settings/mides';
@@ -28,12 +31,16 @@
 
 
 @import '5.objects/cartell';
+@import '5.objects/taula_ponents';
+@import '5.objects/article';
+@import '5.objects/formulari';
 
 @import '6.components/logo';
+@import '6.components/card';
+@import '6.components/cartell-components';
 
 @import '7.utilities/extres';
  
-
 /**
  * Do NOT include anything else in this file!
  */

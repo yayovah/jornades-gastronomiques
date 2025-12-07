@@ -1,4 +1,33 @@
 <footer class="container-fluid px-4 py-5 bg-dark">
+
+  <!-- Primera part del footer -->
+
+  <div class=" container d-flex flex-column">
+    <h2 class="text-light"> Deixa'ns el teu missatge </h2>
+    <form name="contacte" method="POST" data-netlify="true" class="text-light o-formulari">
+      <div class="mb-3">
+        <label>Nom: </label>
+        <input class="form-control" type="text" name="name" placeholder="Escriu el teu nom" />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">email: </label>
+        <input class="form-control" type="email" name="email" placeholder="Escriu el teu nom" />
+      </div>
+      <div class="mb-3">
+        <label>Missatge: </label>
+        <textarea class="form-control" name="message"></textarea>
+      </div>
+      <div class="mb-3">
+        <button class="btn btn-info mb-3 w-50 text-light" type="submit">Send</button>
+      </div>
+    </form>
+
+  </div>
+
+  <!-- Segona part del footer -->
+
+  <hr class="w-100 border border-light border-3">
+
   <div class="d-flex  flex-sm-row flex-column">
     <include src="./views/logo.html"></include>
     <nav class="navbar navbar-expand-sm mx-sm-auto" data-bs-theme="dark">
@@ -17,7 +46,7 @@
         </li>
       </ul>
     </nav>
-    <div id="xarxes" class="container text-light text-sm-end  mx-sm-auto">
+    <div id="xarxes" class="container text-light text-center text-sm-end my-5">
       <i class="fa-solid fa-envelope fs-3"></i>
       <i class="fa-solid fa-share-nodes fs-3 "></i>
       <i class="fa-brands fa-instagram fs-3"></i>

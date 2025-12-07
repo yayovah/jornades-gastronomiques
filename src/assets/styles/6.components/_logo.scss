@@ -4,8 +4,15 @@
         max-width: 30px;
     }
     figure{
+        min-width: 125px;
+        margin-top: 10px;
         display:flex;
         gap: 5px;
         align-items: center;
+        
+        figcaption{
+            margin-top: 12px;
+        }
     }
+
 }

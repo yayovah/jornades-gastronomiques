@@ -15,7 +15,41 @@
 </head>
 
 <body>
-    <include src="./views/portada.html"></include>
+    <include src="./views/header.html"></include>
+    <main>
+        <div class="container d-flex flex-column w-md-50 align-items-center">
+            <h2 class="text-info"> Inscriu-te al taller</h2>
+            <form name="contacte" method="POST" data-netlify="true" class="text-info  o-formulari">
+                <div class="mb-3">
+                    <label>Taller: </label>
+                    <select class="form-control" type="text" name="taller">
+                        <option value="romescos">Taller de romescos</option>
+                        <option value="allioli">Taller d'allioli</option>
+                        <option value="casolana">Xerrada sobre la cuina casolana</option>
+                        <option value="mediterrania">Xerrada Dieta mediterrània</option>
+                        <option value="del camp">Xerrada Del camp al paladar</option>
+                        <option value="suquets">Taller de suquets de peix</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label>Nom: </label>
+                    <input class="form-control" type="text" name="nom" placeholder="Escriu el teu nom" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">email: </label>
+                    <input class="form-control" type="email" name="email" placeholder="Escriu el teu nom" />
+                </div>
+                <div class="mb-3">
+                    <label>Missatge: </label>
+                    <textarea class="form-control" name="message"></textarea>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-info mb-3 w-50" type="submit">Send</button>
+                </div>
+            </form>
+
+        </div>
+    </main>
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
 </body>
